@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>number converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main_section">
+        <div action="">
+            <h2>number converter</h2>
+            <input id="text" type="text" placeholder="enter a value" required>
+           <select name="conversion" id="conversion" required autocomplete="off">
+                <option value="decimal to binary">decimal to binary</option>
+                <option value="decimal to hexadecimal">decimal to hexadecimal</option>
+                <option value="decimal to octal">decimal to octal</option>
+                <option value="binary to decimal">binary to decimal</option>
+                <option value="hexadecimal to decimal">hexadecimal to decimal</option>
+                <option value="octal to decimal">octal to decimal</option>
+                
+           </select>
+            <div id="answer"><p>Value</p></div>
+
+            <button value="submit" id="calculate">calculate</button>
+        </div>
+    </div>
+    <script src="console.js"></script>
+</body>
+</html>
